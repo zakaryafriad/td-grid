@@ -1,7 +1,7 @@
 ul {
     display: grid;
-    grid-template-columns: max-content;
-    grid-template-rows: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    height: 200px;
     gap: 1rem;
 }
 
